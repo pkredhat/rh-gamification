@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ij97Jauvhs=",
+  "success": true,
+  "projectFilePath": "/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/dotnet-kafka-app.csproj",
+  "expectedPackageFiles": [
+    "/Users/phknezev/.nuget/packages/confluent.kafka/2.8.0/confluent.kafka.2.8.0.nupkg.sha512",
+    "/Users/phknezev/.nuget/packages/librdkafka.redist/2.8.0/librdkafka.redist.2.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
