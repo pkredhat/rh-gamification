@@ -6,7 +6,7 @@ class Consumer
 {
     public static void Run()
     {
-        string bootstrapServers = "localhost:9092";
+        string bootstrapServers = "host.containers.internal:9092";
         string topic = "test-topic";
         string groupId = "test-group";
 
