@@ -1,4 +1,4 @@
-# Start Kafka Server
+# Start Kafka Server Container
 podman stop kafka-server
 podman rm kafka-server
 podman run -d --name kafka-server \
@@ -13,10 +13,13 @@ podman run -d --name kafka-server \
   -p 9092:9092 -p 9093:9093 \
   docker.io/bitnami/kafka:latest
 
-# OTHER ALTERNATIVE LOCATIONS
--e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \
--e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://10.88.0.9:9092 \
--e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://host.containers.internal:9092 \
+
+# RUN Dotnet container
+podman run -d --name dotnet-kafka-app \
+  --network host --rm --platform=linux/amd64 \
+  -e KAFKA_BOOTSTRAP_SERVERS="localhost:9092" \
+  localhost/dotnet-kafka-app
+
 
 # Create topic 
 podman exec -it kafka-server kafka-topics.sh --create --topic test-topic --bootstrap-server host.containers.internal:9092 --partitions 1 --replication-factor 1
@@ -35,3 +38,7 @@ podman exec -it kafka-server kafka-console-consumer.sh \
 
   #Run Dotnet in podman
   podman run --rm --network host -it localhost/dotnet-kafka-app sh
+
+
+#Quick test OPenshift
+oc run dotnet-kafka-app-debug --rm -it --restart=Never --image=quay.io/pknezevich/dotnet-kafka-app --env=KAFKA_BOOTSTRAP_SERVERS=pk-kafka-cluster-kafka-bootstrap:9092 -- bash
