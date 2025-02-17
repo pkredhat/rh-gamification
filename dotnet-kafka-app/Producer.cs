@@ -5,8 +5,18 @@ class Producer
 {
     public static void Run()  // ✅ No async, fully synchronous
     {
-        //string bootstrapServers = "localhost:9092";  // Change if using a remote broker
-        string bootstrapServers = "10.88.0.9:9092";
+        Console.WriteLine("Starting Kafka Producer...");
+        string bootstrapServers = Environment.GetEnvironmentVariable("KAFKA_BOOTSTRAP_SERVERS");
+        if (string.IsNullOrEmpty(bootstrapServers))
+        {
+            Console.WriteLine("KAFKA_BOOTSTRAP_SERVERS environment variable is not set.");
+        }
+        else
+        {
+            Console.WriteLine($"KAFKA_BOOTSTRAP_SERVERS: {bootstrapServers}");
+        }
+
+
         string topic = "test-topic";  // Ensure this topic exists in Kafka
 
         var config = new ProducerConfig { BootstrapServers = bootstrapServers };

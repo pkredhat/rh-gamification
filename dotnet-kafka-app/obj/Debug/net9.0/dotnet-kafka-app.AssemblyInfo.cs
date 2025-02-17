@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-kafka-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49b4b2fae14192ae30a76b2185328f59d4f62264")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de9c5d0d10d3c3b8e9f7fb789b0cd18c788e9f2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-kafka-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-kafka-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
