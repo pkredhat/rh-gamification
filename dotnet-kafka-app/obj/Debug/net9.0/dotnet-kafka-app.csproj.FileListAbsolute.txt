@@ -1,3 +1,9 @@
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.csproj.AssemblyReference.cache
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.AssemblyInfoInputs.cache
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.AssemblyInfo.cs
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.csproj.CoreCompileInputs.cache
+/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.sourcelink.json
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/dotnet-kafka-app
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/dotnet-kafka-app.deps.json
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/dotnet-kafka-app.runtimeconfig.json
@@ -28,12 +34,6 @@
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/runtimes/win-x86/native/vcruntime140.dll
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/runtimes/win-x86/native/zlib1.dll
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/bin/Debug/net9.0/runtimes/win-x86/native/zstd.dll
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.csproj.AssemblyReference.cache
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.GeneratedMSBuildEditorConfig.editorconfig
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.AssemblyInfoInputs.cache
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.AssemblyInfo.cs
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.csproj.CoreCompileInputs.cache
-/Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.sourcelink.json
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-k.D23F7FF4.Up2Date
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/dotnet-kafka-app.dll
 /Users/phknezev/code/redhat/rh-gamification/dotnet-kafka-app/obj/Debug/net9.0/refint/dotnet-kafka-app.dll

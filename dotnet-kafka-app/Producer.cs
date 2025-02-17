@@ -5,7 +5,8 @@ class Producer
 {
     public static void Run()  // ✅ No async, fully synchronous
     {
-        string bootstrapServers = "localhost:9092";  // Change if using a remote broker
+        //string bootstrapServers = "localhost:9092";  // Change if using a remote broker
+        string bootstrapServers = "10.88.0.9:9092";
         string topic = "test-topic";  // Ensure this topic exists in Kafka
 
         var config = new ProducerConfig { BootstrapServers = bootstrapServers };

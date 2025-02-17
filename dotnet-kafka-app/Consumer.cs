@@ -6,7 +6,13 @@ class Consumer
 {
     public static void Run()
     {
-        string bootstrapServers = "host.containers.internal:9092";
+        // Retrieve the Kafka bootstrap servers from environment variable
+        string bootstrapServers = Environment.GetEnvironmentVariable("KAFKA_BOOTSTRAP_SERVERS");
+
+        Console.WriteLine("Running consumer\n\n\n");
+        //string bootstrapServers = "localhost:9092";
+        //string bootstrapServers = "host.containers.internal:9092";
+
         string topic = "test-topic";
         string groupId = "test-group";
 
