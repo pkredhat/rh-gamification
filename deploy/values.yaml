@@ -7,6 +7,12 @@ container:
   name: dotnet-kafka-app
   port: 8080
 
+env:
+  - name: KAFKA_BOOTSTRAP_SERVERS
+    value: "pk-kafka-cluster-kafka-bootstrap:9092"
+  - name: KAFKA_SECURITY_PROTOCOL
+    value: "PLAINTEXT"
+
 resources:
   limits:
     cpu: "500m"
