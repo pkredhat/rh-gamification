@@ -1,0 +1,3 @@
+[submodule "dotnet-kafka-consoleapp"]
+	path = dotnet-kafka-consoleapp
+	url = https://github.com/pkredhat/dotnet-kafka-consoleapp
