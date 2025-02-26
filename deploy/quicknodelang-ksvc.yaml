@@ -1,0 +1,16 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: quicknode-lang  
+spec:
+  template:
+    spec:
+      containers:
+        - image: quay.io/pknezevich/quicknode-lang
+          env:
+            - name: COUNTRY_CODE
+              value: "es"
+  traffic:
+    - latestRevision: true  # Automatically tags the latest revision
+      percent: 100
+      tag: green
