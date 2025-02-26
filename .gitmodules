@@ -4,3 +4,6 @@
 [submodule "ds-challenge03"]
 	path = ds-challenge03
 	url = https://github.com/pkredhat/dotnet-kafka-consoleapp
+[submodule "ds-challenge04"]
+	path = ds-challenge04
+	url = https://github.com/pkredhat/helloworld.net-multilang
