@@ -1,6 +1,3 @@
-[submodule "ds-challenge02"]
-	path = ds-challenge02
-	url = https://github.com/pkredhat/ds-challenge02
 [submodule "ds-challenge03"]
 	path = ds-challenge03
 	url = https://github.com/pkredhat/dotnet-kafka-consoleapp
