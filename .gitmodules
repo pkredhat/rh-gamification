@@ -4,3 +4,6 @@
 [submodule "ds-challenge04"]
 	path = ds-challenge04
 	url = https://github.com/pkredhat/helloworld.net-multilang
+[submodule "ds-challenge02"]
+	path = ds-challenge02
+	url = https://github.com/pkredhat/helloworld-lang-examples
